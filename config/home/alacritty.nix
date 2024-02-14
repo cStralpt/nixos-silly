@@ -27,7 +27,7 @@ in lib.mkIf (alacritty == true) {
 	bold.family = "JetBrainsMono Nerd Font";
 	italic.family = "JetBrainsMono Nerd Font";
 	bold_italic.family = "JetBrainsMono Nerd Font";
-	size = 14;
+	size = 10;
       };
     };
   };
