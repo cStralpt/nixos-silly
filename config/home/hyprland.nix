@@ -20,7 +20,8 @@ in with lib; {
     extraConfig = let
       modifier = "SUPER";
     in concatStrings [ ''
-      monitor=,preferred,auto,1
+      monitor=HDMI-A-1,1920x1080@100,0x0,1
+      monitor=eDP-1, 1920x1080, 1920x0, 1
       windowrule = float, ^(steam)$
       windowrule = size 1080 900, ^(steam)$
       windowrule = center, ^(steam)$
@@ -40,7 +41,7 @@ in with lib; {
         kb_options=caps:super
         follow_mouse = 1
         touchpad {
-          natural_scroll = false
+          natural_scroll = true
         }
         sensitivity = 0 # -1.0 - 1.0, 0 means no modification.
         accel_profile = flat
