@@ -16,6 +16,11 @@ lib.mkIf (theShell == "bash") {
       if [ -f $HOME/.bashrc-personal ]; then
         source $HOME/.bashrc-personal
       fi
+
+      if command -v fzf-share >/dev/null; then
+          source "$(fzf-share)/key-bindings.bash"
+          source "$(fzf-share)/completion.bash"
+      fi
     '';
     sessionVariables = {
     

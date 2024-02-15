@@ -17,6 +17,7 @@ in {
   # Enable networking
   networking.hostName = "${hostname}"; # Define your hostname
   networking.networkmanager.enable = true;
+  virtualisation.docker.enable = true;
 
   # Set your time zone
   time.timeZone = "${theTimezone}";
@@ -45,7 +46,7 @@ in {
       hashedPassword = "$6$YdPBODxytqUWXCYL$AHW1U9C6Qqkf6PZJI54jxFcPVm2sm/XWq3Z1qa94PFYz0FF.za9gl5WZL/z/g4nFLQ94SSEzMg5GMzMjJ6Vd7.";
       isNormalUser = true;
       description = "${gitUsername}";
-      extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
+      extraGroups = [ "networkmanager" "wheel" "libvirtd" "docker"];
       shell = pkgs.${theShell};
       ignoreShellProgramCheck = true;
       packages = with pkgs; [];
