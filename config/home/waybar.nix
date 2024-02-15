@@ -135,7 +135,7 @@ in with lib; {
     }];
     style = concatStrings [''
       * {
-	font-size: 16px;
+	font-size: 12px;
 	font-family: JetBrainsMono Nerd Font, Font Awesome, sans-serif;
     	font-weight: bold;
       }
