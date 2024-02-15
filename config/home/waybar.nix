@@ -56,7 +56,7 @@ in with lib; {
       "network" = {
         format-icons = ["󰤯" "󰤟" "󰤢" "󰤥" "󰤨"];
         format-ethernet = " {bandwidthDownOctets}";
-        format-wifi = "{icon} {signalStrength}%";
+        format-wifi = "{icon}   {bandwidthDownOctets}  {bandwidthUpOctets}";
         format-disconnected = "󰤮";
         tooltip = false;
       };
