@@ -51,6 +51,7 @@ in {
       ignoreShellProgramCheck = true;
       packages = with pkgs; [
         nodePackages.pnpm
+        chromium
       ];
     };
   };
