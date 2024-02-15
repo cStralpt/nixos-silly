@@ -49,7 +49,9 @@ in {
       extraGroups = [ "networkmanager" "wheel" "libvirtd" "docker"];
       shell = pkgs.${theShell};
       ignoreShellProgramCheck = true;
-      packages = with pkgs; [];
+      packages = with pkgs; [
+        nodePackages.pnpm
+      ];
     };
   };
 

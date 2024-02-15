@@ -36,6 +36,7 @@ lib.mkIf (theShell == "bash") {
       la="lsd -a";
       lal="lsd -al";
       ".."="cd ..";
+      pn="pnpm";
     };
   };
 }
