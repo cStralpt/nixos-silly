@@ -52,6 +52,7 @@ in {
       packages = with pkgs; [
         nodePackages.pnpm
         chromium
+        sqlite
       ];
     };
   };
