@@ -18,6 +18,7 @@ in {
   networking.hostName = "${hostname}"; # Define your hostname
   networking.networkmanager.enable = true;
   virtualisation.docker.enable = true;
+  # virtualisation.podman.enable = true;
 
   # Set your time zone
   time.timeZone = "${theTimezone}";
@@ -53,6 +54,8 @@ in {
         nodePackages.pnpm
         chromium
         sqlite
+        biome
+        docker-compose
       ];
     };
   };
