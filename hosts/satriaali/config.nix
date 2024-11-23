@@ -301,6 +301,10 @@ in
     steam-run
     docker
     zed-editor
+    ripgrep
+    fd
+    libgcc
+    appimage-run
   ];
 
   fonts = {
