@@ -305,6 +305,7 @@ in
     fd
     libgcc
     appimage-run
+    gh
   ];
 
   fonts = {
