@@ -103,4 +103,6 @@ sudo nixos-rebuild switch --flake .#hostname
 
 Now when you want to rebuild the configuration you have access to an alias called flake-rebuild that will rebuild the flake!
 
+If you're succesfully installed it, make sure you follow the next step instructions in the instructions.md file!
+
 Hope you enjoy!
