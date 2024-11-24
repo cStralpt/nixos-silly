@@ -306,6 +306,7 @@ in
     libgcc
     appimage-run
     gh
+    neovim
   ];
 
   fonts = {
