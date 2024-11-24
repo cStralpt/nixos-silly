@@ -9,6 +9,7 @@ this version is mainly configured for Rust & TypeScript developer, what you will
 - Rustup
 - Docker
 - Zed Editor
+- LazyCodium
 
 ## A couple things need to do are:
 ### add some required environment variables
@@ -66,4 +67,10 @@ pnpm config get global-bin-dir
 ### install rust?
 ```bash
 rustup default stable
+```
+### install LazyCodium
+
+```bash
+mv ~/.config/nvim{,.bak}
+git clone https://github.com/cStralpt/lazycodium-starter-template.git ~/.config/nvim
 ```
