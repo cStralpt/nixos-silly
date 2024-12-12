@@ -299,14 +299,13 @@ in
     nodejs_22
     android-studio
     steam-run
-    docker
     zed-editor
     ripgrep
     fd
     libgcc
     appimage-run
-    gh
     neovim
+    podman-compose
   ];
 
   fonts = {

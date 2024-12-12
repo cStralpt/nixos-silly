@@ -18,7 +18,7 @@ in
     ../../config/emoji.nix
     ../../config/fastfetch
     ../../config/hyprland.nix
-    # ../../config/neovim.nix
+    ../../config/neovim.nix
     ../../config/rofi/rofi.nix
     ../../config/rofi/config-emoji.nix
     ../../config/rofi/config-long.nix
